@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(198, 235, 171);
+    color:blueviolet;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.9;
+    
+    
+    
+    
+}
+
+.main-container{
+    display: flex;
+    margin: auto;
+    opacity: 0.5;
+    width: auto;
+    height: fit-content;
+    gap: 19px;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+    
+    
+        
+    
+}
+
+.Box{
+    height:500px;
+    width:400px;
+    background-color:wheat;
+    color:rgba(255, 255, 255, 0.4);
+    border-radius: 7%;
+    border: 2px solid darkgreen;
+    
+
+    
+    
+}
+
+#bar{
+    
+    font-size:12px;
+    color: black;
+    height: 80px;
+    background-color:pink;
+    border-radius: 6%;
+    border: 1px solid darkgreen;
+    
+    
+    }
+
+#bar h1{
+    text-align: center;
+    color: red;
+    margin: 0;
+    border-radius: 5%;
+    padding-top: 20px;
+
+}
+
+.input{
+    margin-left: 40px;
+    margin-top: 30px;
+    
+    
+    
+}
+
+.addToList{
+    height:30px;
+    background-color: rgb(19, 128, 19);
+}
+
+.item{
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    color:black
+}
+

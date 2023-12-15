@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="main-container">
+
+        <div class= "Box" id="All-tasks"> 
+            <div id="bar">  
+                <h1>All Tasks</h1>
+            </div> 
+            <div class="item" draggable="true">Wash Clothes</div>
+            <div class="item" draggable="true">Meeting at 9PM</div>
+            <div class="item" draggable="true">Laundry</div>
+            <div class="item" draggable="true">Visit the doc</div>
+            <!-- <div id="textarea">
+                <input class="input work item" type="text" placeholder="LFG">
+                <button id="addToList" type="submit">+</button>
+            </div> -->
+            <div id="display"></div>
+        </div>
+
+        <div class= "Box" id="In-progress">
+            <div id="bar">
+                <h1>In progress</h1>
+            </div>
+            
+            <div id="textarea"></div>
+        </div>
+
+        <div class= "Box" id="Paused">
+            <div id="bar">
+                <h1>Paused</h1>
+            </div>
+            
+            <div id="textarea"></div>
+        </div>
+
+        <div class= "Box" id="Under-review">
+            <div id="bar">
+                <h1>Under review</h1>
+            </div>
+            
+            <div id="textarea"></div>
+        </div>
+
+        <div class= "Box" id="Completed">
+            <div id="bar">
+                <h1>Completed</h1>
+            </div>
+            
+            <div id="textarea"></div>
+        </div>
+    </div>
+    <script src="./fmain.js"></script>
+</body>
+</html>
